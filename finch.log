@@ -1,0 +1,97 @@
+2020-04-05 12:47:26,527 [main] DEBUG: edu.cmu.ri.createlab.terk.application.TerkApplication: TerkApplication.TerkApplication()
+2020-04-05 12:47:26,529 [main] INFO : edu.cmu.ri.createlab.terk.application.TerkApplication: TerkApplication.TerkApplication(): System property [terk-application.connection-strategy.class.name] is not defined.  Attempting to use default [edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy] implementation class instead.
+2020-04-05 12:47:26,556 [main] DEBUG: edu.cmu.ri.createlab.terk.application.TerkApplication: TerkApplication.TerkApplication(): successfully instantiated ConnectionStrategy implementation class [edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy]
+2020-04-05 12:47:26,736 [main] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: BaseCreateLabDeviceConnectivityManager: scanAndConnectWorkhorseRunnable.run()
+2020-04-05 12:47:26,737 [main] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: BaseCreateLabDeviceConnectivityManager.disconnect()
+2020-04-05 12:47:26,737 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy: LocalFinchConnectionStrategy.handleConnectionStateChange(): OLD [Disconnected]  NEW [Disconnected]  port []
+2020-04-05 12:47:26,738 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: CreateLabDeviceConnectivityManagerImpl$DeviceScanner.run()
+2020-04-05 12:47:26,738 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy: LocalFinchConnectionStrategy.handleConnectionStateChange(): OLD [Disconnected]  NEW [Scanning]  port []
+2020-04-05 12:47:26,746 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.DefaultFinchController: DefaultFinchController.create(): creating HID device for vendor ID [2354] and product ID [1111]
+2020-04-05 12:47:26,754 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.DefaultFinchController: DefaultFinchController.create(): attempting connection...
+2020-04-05 12:47:28,187 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.usb.hid.windows.WindowsHIDDevice: WindowsHIDDevice.disconnect(): disconnected successfully
+2020-04-05 12:47:28,189 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.usb.hid.windows.WindowsHIDDevice: WindowsHIDDevice.connect(): connection successful
+2020-04-05 12:47:28,215 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: CreateLabDeviceConnectivityManagerImpl$DeviceScanner.run(): connection established!
+2020-04-05 12:47:28,216 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy: LocalFinchConnectionStrategy.handleConnectionStateChange(): OLD [Scanning]  NEW [Connected]  port [\\?\hid#vid_2354&pid_1111#6&c95386&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}]
+2020-04-05 12:47:41,206 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth: All available voices
+2020-04-05 12:47:41,245 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth:     kevin (general domain)
+2020-04-05 12:47:41,245 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth:     kevin16 (general domain)
+2020-04-05 12:47:41,245 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth: Using voice: kevin
+2020-04-05 12:47:41,734 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=31830)
+2020-04-05 12:47:41,852 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceManager: FinchServiceManager.loadService() needs to load the [::TeRK::led::FullColorLEDService] service
+2020-04-05 12:47:41,852 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceFactory: FinchServiceFactory.createService(::TeRK::led::FullColorLEDService)
+2020-04-05 12:47:41,860 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(device.count,1)
+2020-04-05 12:47:41,860 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::led::FullColorLEDService::min-intensity,0)
+2020-04-05 12:47:41,860 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::led::FullColorLEDService::max-intensity,255)
+2020-04-05 12:47:45,113 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceManager: FinchServiceManager.loadService() needs to load the [::TeRK::photoresistor::PhotoresistorService] service
+2020-04-05 12:47:45,113 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceFactory: FinchServiceFactory.createService(::TeRK::photoresistor::PhotoresistorService)
+2020-04-05 12:47:45,129 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(device.count,2)
+2020-04-05 18:31:02,751 [main] DEBUG: edu.cmu.ri.createlab.terk.application.TerkApplication: TerkApplication.TerkApplication()
+2020-04-05 18:31:02,752 [main] INFO : edu.cmu.ri.createlab.terk.application.TerkApplication: TerkApplication.TerkApplication(): System property [terk-application.connection-strategy.class.name] is not defined.  Attempting to use default [edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy] implementation class instead.
+2020-04-05 18:31:02,771 [main] DEBUG: edu.cmu.ri.createlab.terk.application.TerkApplication: TerkApplication.TerkApplication(): successfully instantiated ConnectionStrategy implementation class [edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy]
+2020-04-05 18:31:02,955 [main] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: BaseCreateLabDeviceConnectivityManager: scanAndConnectWorkhorseRunnable.run()
+2020-04-05 18:31:02,955 [main] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: BaseCreateLabDeviceConnectivityManager.disconnect()
+2020-04-05 18:31:02,955 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy: LocalFinchConnectionStrategy.handleConnectionStateChange(): OLD [Disconnected]  NEW [Disconnected]  port []
+2020-04-05 18:31:02,957 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: CreateLabDeviceConnectivityManagerImpl$DeviceScanner.run()
+2020-04-05 18:31:02,957 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy: LocalFinchConnectionStrategy.handleConnectionStateChange(): OLD [Disconnected]  NEW [Scanning]  port []
+2020-04-05 18:31:02,968 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.DefaultFinchController: DefaultFinchController.create(): creating HID device for vendor ID [2354] and product ID [1111]
+2020-04-05 18:31:02,982 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.DefaultFinchController: DefaultFinchController.create(): attempting connection...
+2020-04-05 18:31:04,632 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.usb.hid.windows.WindowsHIDDevice: WindowsHIDDevice.disconnect(): disconnected successfully
+2020-04-05 18:31:04,634 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.usb.hid.windows.WindowsHIDDevice: WindowsHIDDevice.connect(): connection successful
+2020-04-05 18:31:04,656 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.device.connectivity.BaseCreateLabDeviceConnectivityManager: CreateLabDeviceConnectivityManagerImpl$DeviceScanner.run(): connection established!
+2020-04-05 18:31:04,657 [BaseCreateLabDeviceConnectivityManager.executorService pool-1-thread-1] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.LocalFinchConnectionStrategy: LocalFinchConnectionStrategy.handleConnectionStateChange(): OLD [Scanning]  NEW [Connected]  port [\\?\hid#vid_2354&pid_1111#6&c95386&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}]
+2020-04-05 18:31:07,490 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth: All available voices
+2020-04-05 18:31:07,533 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth:     kevin (general domain)
+2020-04-05 18:31:07,533 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth:     kevin16 (general domain)
+2020-04-05 18:31:07,533 [main] INFO : edu.cmu.ri.createlab.speech.AbstractMouth: Using voice: kevin
+2020-04-05 18:31:08,318 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=31830)
+2020-04-05 18:31:08,449 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceManager: FinchServiceManager.loadService() needs to load the [::TeRK::led::FullColorLEDService] service
+2020-04-05 18:31:08,449 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceFactory: FinchServiceFactory.createService(::TeRK::led::FullColorLEDService)
+2020-04-05 18:31:08,454 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(device.count,1)
+2020-04-05 18:31:08,455 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::led::FullColorLEDService::min-intensity,0)
+2020-04-05 18:31:08,455 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::led::FullColorLEDService::max-intensity,255)
+2020-04-05 18:31:11,275 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceManager: FinchServiceManager.loadService() needs to load the [::TeRK::photoresistor::PhotoresistorService] service
+2020-04-05 18:31:11,276 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceFactory: FinchServiceFactory.createService(::TeRK::photoresistor::PhotoresistorService)
+2020-04-05 18:31:11,298 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(device.count,2)
+2020-04-05 18:31:13,310 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=19494)
+2020-04-05 18:31:14,318 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=15368)
+2020-04-05 18:31:15,325 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=11498)
+2020-04-05 18:31:16,333 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=10752)
+2020-04-05 18:31:17,341 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceManager: FinchServiceManager.loadService() needs to load the [::TeRK::motor::OpenLoopVelocityControllableMotorService] service
+2020-04-05 18:31:17,341 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceFactory: FinchServiceFactory.createService(::TeRK::motor::OpenLoopVelocityControllableMotorService)
+2020-04-05 18:31:17,344 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(device.count,2)
+2020-04-05 18:31:17,344 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::motor::OpenLoopVelocityControllableMotorService::min-velocity,-255)
+2020-04-05 18:31:17,344 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::motor::OpenLoopVelocityControllableMotorService::max-velocity,255)
+2020-04-05 18:31:18,442 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=20696)
+2020-04-05 18:31:19,534 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=20650)
+2020-04-05 18:31:26,814 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=31830)
+2020-04-05 18:31:29,818 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=19494)
+2020-04-05 18:31:30,826 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=15368)
+2020-04-05 18:31:31,830 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=11498)
+2020-04-05 18:31:32,834 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=10752)
+2020-04-05 18:31:37,947 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=20696)
+2020-04-05 18:31:40,993 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=20650)
+2020-04-05 18:31:50,576 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=31830)
+2020-04-05 18:31:54,647 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=19494)
+2020-04-05 18:31:55,653 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=15368)
+2020-04-05 18:31:56,656 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=11498)
+2020-04-05 18:31:57,660 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=10752)
+2020-04-05 18:32:01,681 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=20696)
+2020-04-05 18:32:04,153 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=20650)
+2020-04-05 18:32:09,200 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=20816)
+2020-04-05 18:32:10,204 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceManager: FinchServiceManager.loadService() needs to load the [::TeRK::AudioController] service
+2020-04-05 18:32:10,204 [main] DEBUG: edu.cmu.ri.createlab.terk.robot.finch.services.FinchServiceFactory: FinchServiceFactory.createService(::TeRK::AudioController)
+2020-04-05 18:32:10,206 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(device.count,1)
+2020-04-05 18:32:10,206 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::AudioController::min-amplitude,0)
+2020-04-05 18:32:10,206 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::AudioController::max-amplitude,10)
+2020-04-05 18:32:10,206 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::AudioController::min-duration,0)
+2020-04-05 18:32:10,206 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::AudioController::max-duration,2147483647)
+2020-04-05 18:32:10,206 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::AudioController::min-frequency,0)
+2020-04-05 18:32:10,206 [main] DEBUG: edu.cmu.ri.createlab.terk.properties.BasicPropertyManager: ServantPropertyManager.setReadOnlyProperty(::TeRK::AudioController::max-frequency,2147483647)
+2020-04-05 18:32:10,219 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=26294)
+2020-04-05 18:32:12,677 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=43880)
+2020-04-05 18:32:15,689 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=39404)
+2020-04-05 18:32:18,695 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=27360)
+2020-04-05 18:32:19,418 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=312876)
+2020-04-05 18:32:26,425 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=23324)
+2020-04-05 18:32:28,428 [main] DEBUG: edu.cmu.ri.createlab.audio.AudioHelper: AudioHelper.playClip(num bytes=24376)
+2020-04-05 18:32:30,031 [Thread-3] INFO : edu.cmu.ri.createlab.speech.AbstractMouth: Shutting down the mouth.
